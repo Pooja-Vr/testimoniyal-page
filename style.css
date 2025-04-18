@@ -88,7 +88,7 @@ h1{
 .text {
     flex: 0 0 60%;
     max-width: 60%;
-    padding: 4rem;
+    padding: 2rem;
     background-color: #6c4640;
     color: #fff;
     height: 450px;
@@ -106,7 +106,7 @@ h1{
 
 .name {
     font-size: 2.5rem;
-    margin-bottom: 2.4rem;
+    margin-bottom: 2rem;
 }
 
 .msg {
