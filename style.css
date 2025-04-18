@@ -134,6 +134,7 @@ h1{
 
 /* ================ Media Query =============== */
 @media (max-width: 992px) {
+
     .testi-img,
     .text {
         height: 400px;
@@ -160,6 +161,20 @@ h1{
 }
 
 @media (max-width: 576px) {
+    h1{
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+    .tabs {
+        margin-bottom: 3rem;
+        gap: 1rem;
+    }
+
+    .tab {
+        padding: 1rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
     .testimonial-content {
         flex-direction: column;
     }
@@ -175,5 +190,32 @@ h1{
         flex: 0 0 100%;
         height: auto;
         min-height: 300px;
+    }
+}
+
+@media (max-width: 368px) {
+    h1{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .tabs {
+        margin-bottom: 2rem;
+        gap: 0.5rem;
+    }
+
+    .tab {
+        padding: 0.8rem 0.5rem;
+        font-size: 0.9rem;
+    }
+    .text {
+        padding: 1.5rem;
+    }
+    
+    .name {
+        font-size: 1.8rem;
+    }
+    
+    .msg {
+        font-size: 0.9rem;
     }
 }
